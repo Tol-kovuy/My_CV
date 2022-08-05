@@ -1,43 +1,106 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maksym MeshkovT</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <img src="ava.jpg" width="40" height="40"/>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="cv">
-        <selection>
+        <section>
             <h1>Maksym Meshkov</h1>
             <h2>FullStack Developer</h2>
+
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch">
+                    <input type="checkbox" class="theme-switch__checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <span class="theme-switch__label">Dark Mode</span>
+            </div>
 
             <div class="contacts">
                 <div class="contact">
                     <div class="contact__type">
-                        GitHub
+                        Github
                     </div>
                     <div class="contact__value">
-                        <a href="https://github.com/Tol-kovuy">github.com/Tol-kovuy</a>
+                        <a href="https://github.com/Tol-kovuy">https://github.com/Tol-kovuy</a>
                     </div>
+                </div>
+                <div class="contact">
                     <div class="contact__type">
                         Email
                     </div>
                     <div class="contact__value">
-                        <a href="mailto:smarty.maks13@gmail.com">smarty.maks13@gmail.com</a>
+                        <a href="mailto:smarty_maks13@gmail.com">smarty_maks13@gmail.com</a>
                     </div>
-                </div>    
+                </div>
             </div>
             <div class="description">
                 After reading Andrew Troelsen's book "Programming Language C .NET and NET Core*. 
                 I got my first fundamental knowledge of C# and .Net
-                l also learned a lot of new information from Stackoverflow, Habr. 
-                Metamt and YouTube videos. Successfully completed the Net Developer Course. 
+                l also learned a lot of new information from Stackoverflow, Habr. Metamt and 
+                YouTube videos. Successfully completed the Net Developer Course. 
                 I have an idea of what patterns are. Some of them used such as 5ingteton and 
                 Factory Method I want to develop in the direction of web development study and 
                 deepen my knowledge in such technologies as ASP NET Core MVC. ASP NET Core Web API. 
-                Angular I am also considering moving to other Odes in Poland or Ukraine
+                Angular I am also considering moving to other Odes in Poland or Ukraine/
+
             </div>
-        </selection>
+        </section>
+
+        <section>
+            <h3>Experience</h3>
+
+            <div class="experience">
+                <div class="experience__date">12.11.2011 - present</div>
+                <div class="experience__description">
+                    <div class="experience__name">Software and Solutions Developer</div>
+                    <div class="experience__company">Big company</div>
+                    <div class="experience__details">
+                        <ul>
+                            <li>Create MVC applications</li>
+                            <li>Create frontend using Angular</li>
+                            <li>Create databases using MS SQL</li>
+                            <li>Create Reports using Reporting Services and MS SQL</li>
+                            <li>Support various applications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experience__date">
+                    01.05.2010 - 12.11.2011
+                </div>
+
+                <div class="experience__description">
+                    <div class="experience__name">Web Developer</div>
+                    <div class="experience__company">Small company</div>
+                    <div class="experience__details">
+                        <ul>
+                            <li>Create websites using Wordpress</li>
+                            <li>Make content for blogs</li>
+                            <li>Create online calculators</li>
+                            <li>Support various applications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Skills</h3>
+            <div>
+                Angular, Figma, Sketch, HTML, CSS, SQL, C#, TypeScript, JavaScript
+            </div>
+        </section>
     </div>
+
+    <script src='js/script.js'></script>
 </body>
 </html>
