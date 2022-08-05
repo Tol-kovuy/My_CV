@@ -1,3 +1,4 @@
+/// <reference path="javascript1.js" />
 var checkbox = document.querySelector('.theme-switch__checkbox');
 
 checkbox.addEventListener('change', function () {
