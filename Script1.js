@@ -1,4 +1,4 @@
-/// <reference path="javascript1.js" />
+
 var checkbox = document.querySelector('.theme-switch__checkbox');
 
 checkbox.addEventListener('change', function () {
@@ -16,3 +16,5 @@ function transition() {
         document.documentElement.classList.remove('transition');
     }, 250)
 }
+
+$(".description").html("123123")
