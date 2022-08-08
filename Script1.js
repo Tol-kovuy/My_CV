@@ -17,4 +17,10 @@ function transition() {
     }, 250)
 }
 
-$(".description").html("123123")
+//$(".description").html("123123");
+//$(".description").css("color", "#F34");
+//$("section").css("background", "#F34");
+//$(".myInput").blur( function () {
+//    $("section").css("background", "#F34");
+//    $(".description").addClass("Father");
+//});
