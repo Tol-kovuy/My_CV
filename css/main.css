@@ -167,4 +167,23 @@ html.transition * {
   -webkit-transition-delay: 0 !important;
           transition-delay: 0 !important;
 }
+.Father{
+    color:aliceblue;
+}
+.ThirdCol{
+    display:grid;
+    grid-template-columns: 50% 20% 30%;
+}
+.Green {
+    background: #3aeb26;
+}
+.Blue {
+    background: #2f80ed;
+}
+.Yellow {
+    background: #ffd800;
+}
+.Red {
+    background: #ff0000;
+}
 /*# sourceMappingURL=main.css.map */
